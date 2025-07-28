@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-28T17:44:52.130252"
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Account.",
+      "importance_rank": 1,
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "section_title": "Certify a PDF",
+      "importance_rank": 2,
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "section_title": "2. Draw in the PDF:",
+      "importance_rank": 3,
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "section_title": "the Security settings for the PDF.",
+      "importance_rank": 4,
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "section_title": "Send an anonymous or public link in an email",
+      "importance_rank": 5,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "5. Type the name and URL for the roaming ID server, and select Next. 6. Type your user name and password, or follow the directions to create an account. ",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Certifying a PDF means approving its contents and specifying what changes are allowed for the document to remain certified. For example, a government agency creates a form with signature fields and certifies it, allowing users to only change form fields and sign the document. Removing pages or adding comments will result in losing the certified status. A certifying signature can only be applied if the PDF has no other signatures. These signatures can be visible or invisible, and a blue ribbon ic",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "\u2022 To create a cloud or polygon shape, click to create the start point, move the pointer, and click to create each segment. To finish drawing the shape, click the start point, or right-click and choose Complete from the menu. Double-click to ",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Create a PDF and share the link for viewing or commenting Applicable to Microsoft Word, Excel, and PowerPoint 1. Open the file in the application used to create it. ",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "An anonymous or public link makes the files accessible to anyone who clicks the link. Follow the steps below to create a review link, and share it using your email client. ",
+      "page_number": 4
+    }
+  ]
+}
