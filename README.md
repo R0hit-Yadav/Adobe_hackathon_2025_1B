@@ -55,12 +55,12 @@ Challenge_1b/
 1. **Install Docker**:
    - Verify: `docker --version`.
 2. **Build the Image**:
-   ```bash
-   docker build --platform linux/amd64 -t challenge1b-processor .
+     ```bash
+   sudo docker build --platform linux/amd64 -t adobe:hackathon25 .
    ```
 3. **Run the Container**:
    ```bash
-   docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output:/app/output --network none challenge1b-processor
+   sudo docker run --rm   -v $(pwd)/app/input:/app/input   -v $(pwd)/app/output:/app/output   --network none   adobe:hackathon25
    ```
 4. **Check Outputs**:
    - Verify `output/Collection 1/challenge1b_output.json`, etc.
